@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CLattenzaun</title>
+    <link>https://CLattenzaun.de/</link>
+    <description>Recent content on CLattenzaun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Thu, 30 Nov 2017 16:21:40 +0100</lastBuildDate>
+    
+	<atom:link href="https://CLattenzaun.de/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OctoAwesome</title>
+      <link>https://CLattenzaun.de/projects/octoawesome/</link>
+      <pubDate>Thu, 30 Nov 2017 16:21:40 +0100</pubDate>
+      
+      <guid>https://CLattenzaun.de/projects/octoawesome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoMaS</title>
+      <link>https://CLattenzaun.de/projects/commandmanagementsystem/</link>
+      <pubDate>Thu, 30 Nov 2017 16:16:20 +0100</pubDate>
+      
+      <guid>https://CLattenzaun.de/projects/commandmanagementsystem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advanced_AL</title>
+      <link>https://CLattenzaun.de/projects/advanced_al/</link>
+      <pubDate>Thu, 30 Nov 2017 16:16:36 +0100</pubDate>
+      
+      <guid>https://CLattenzaun.de/projects/advanced_al/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://CLattenzaun.de/contact/</link>
+      <pubDate>Thu, 30 Nov 2017 16:11:09 +0100</pubDate>
+      
+      <guid>https://CLattenzaun.de/contact/</guid>
+      <description>Wenn du noch Fragen oder Anregungen hast, schreibe mir doch einfach ne Mail ;)</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://CLattenzaun.de/about/</link>
+      <pubDate>Thu, 30 Nov 2017 15:22:11 +0100</pubDate>
+      
+      <guid>https://CLattenzaun.de/about/</guid>
+      <description>Was soll man groß über mich, sagen außer das ich C# und Entwicklung liebe :D.
+Vllt. so ein Paar beschauliche Fakten aus meinem Kurzen leben. Ich bin 1994 im schönen Nordschwarzwald geboren. Habe nach erfolgreichem Abschluss der Grundschule sowohl die Hauptschule als auch eine kaufmännische Realschule besucht. 3 ganze Jahre lang habe ich den Weg zum Buchhändler bestritten. Seit dem 1. September 2015 mache ich eine Ausbildung zum Fachinformatiker in Anwendungsentwicklung und gehe neben dem Lesen und schreiben meiner großen Leidenschaft der Softwareentwicklung nach.</description>
+    </item>
+    
+  </channel>
+</rss>
