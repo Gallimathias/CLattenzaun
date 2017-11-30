@@ -12,7 +12,7 @@ canonifyurls        = true                          # Turns relative urls into a
 [params]
     bloghead        = "Blog"                        # Full name shows on blog post pages
     firstname       = "CLattenzaun.de"                # First name shows in introduction on main page
-    tagline         = ""       # Appears after the introduction
+    tagline         = "Mit Herzen CLattenzaun Entwickler"       # Appears after the introduction
     introheight     = "large"                       # Input either 'medium' or 'large' or 'fullheight'
     theme           = "dark"                        # Choose 'light' or 'dark'
     avatar          = "img/profile.jpg"             # Path to image in static folder eg. img/avatar.png, or comment out to remove
@@ -22,7 +22,7 @@ canonifyurls        = true                          # Turns relative urls into a
     dateform        = "2 Jan 2006"
     dateformfull    = "Mon 2 Jan 2006 15:04:05 EST"
     cachebuster     = false                         # Add the current unix timestamp in query string for cache busting css assets (relevant in development mode)
-    description     = "Website Description"         # Max 160 characters show in search results
+    description     = "C# Projekte und Programmierer Spaß und Wahnsinn"         # Max 160 characters show in search results
     faviconfile     = "img/fav.ico"
     highlightjs     = true                          # Syntax highlighting
     footertext      = ""                            # Text to show in footer (overrides default text)
@@ -49,10 +49,18 @@ canonifyurls        = true                          # Turns relative urls into a
     url = "https://twitter.com/Noob_Dev_Tv"
     icon = "twitter"
 
-[[params.social]]
-    url = "https://linkedin.com/"
-    icon = "linkedin"
+#[[params.social]]
+#    url = "https://linkedin.com/"
+#    icon = "linkedin"
 
 [[params.social]]
     url = "https://github.com/Gallimathias"
     icon = "github"
+
+[[params.social]]
+    url = "https://www.twitch.tv/noobdevtv"
+    icon = "twitch"
+
+[[params.social]]
+    url = "https://www.youtube.com/channel/UCIWEvJ9SHMQoouIe86z6buQ"
+    icon = "youtube"
