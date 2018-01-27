@@ -10,7 +10,7 @@
         <div class="container has-text-centered">
             <!-- Title and tagline -->
             <h1 class="bold-title {{ if .Site.Params.fadeIn }}fade-in one{{ end }}">
-                Wilkommen auf {{ .Site.Params.firstName }}.
+                Willkommen auf {{ .Site.Params.firstName }}
             </h1>
             <h3 class="subtitle is-3 {{ if.Site.Params.fadeIn }} fade-in two{{ end }}">
                 {{ .Site.Params.tagLine }}
@@ -21,6 +21,13 @@
                 {{ partial "social.html" . }}
             </div>
             <!-- End top social icons -->
+            <!-- Arrow down -->
+            <div class="container has-text-centered top-pad">
+                <a href="#about">
+                    <i class="fa fa-arrow-down"></i>
+                </a>
+            </div>
+            <!-- End arrow down -->
         </div>
     </div> <!-- Hero body title end -->
     <!-- Hero foot has nav bar -->
