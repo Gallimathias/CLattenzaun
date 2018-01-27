@@ -75,7 +75,7 @@ crossorigin="anonymous"></script>
         <div class="container has-text-centered">
             
             <h1 class="bold-title fade-in one">
-                Wilkommen auf CLattenzaun.de.
+                Willkommen auf CLattenzaun.de
             </h1>
             <h3 class="subtitle is-3  fade-in two">
                 Mit Herzen CLattenzaun Entwickler
@@ -102,6 +102,13 @@ crossorigin="anonymous"></script>
     </a>
     
 </div>
+            </div>
+            
+            
+            <div class="container has-text-centered top-pad">
+                <a href="#about">
+                    <i class="fa fa-arrow-down"></i>
+                </a>
             </div>
             
         </div>
@@ -184,15 +191,15 @@ crossorigin="anonymous"></script>
                         <div class="card-image">
                             <figure class="image is-3by2">
                                 <a 
-                                    href="http://www.octoawesome.net/"
+                                    id="projectoctoawesome"
                                     >
-                                    <img src="https://avatars0.githubusercontent.com/u/18464249?s=200&amp;v=4">
+                                    <img src="img/octoawesome.png">
                                 </a>
                             </figure>
                         </div>
                         <div class="card-content has-text-centered top-pad">
-                                <a 
-                                    href="http://www.octoawesome.net/"
+                                <a class="project-title" 
+                                    id="projectoctoawesome"
                                     >
                                     OctoAwesome
                                 </a>
@@ -207,15 +214,15 @@ crossorigin="anonymous"></script>
                         <div class="card-image">
                             <figure class="image is-3by2">
                                 <a 
-                                    href="https://github.com/Gallimathias/CommandManagementSystem"
+                                    id="projectcomas"
                                     >
                                     <img src="https://www.gallimathias.de/images/CoMaS.png">
                                 </a>
                             </figure>
                         </div>
                         <div class="card-content has-text-centered top-pad">
-                                <a 
-                                    href="https://github.com/Gallimathias/CommandManagementSystem"
+                                <a class="project-title" 
+                                    id="projectcomas"
                                     >
                                     CoMaS
                                 </a>
@@ -230,17 +237,17 @@ crossorigin="anonymous"></script>
                         <div class="card-image">
                             <figure class="image is-3by2">
                                 <a 
-                                    href="https://github.com/Gallimathias/Advanced_AL"
+                                    id="projectal-advanced"
                                     >
-                                    <img src="https://CLattenzaun.de/img/workday.jpg">
+                                    <img src="https://CLattenzaun.de/img/neo-urban.jpg">
                                 </a>
                             </figure>
                         </div>
                         <div class="card-content has-text-centered top-pad">
-                                <a 
-                                    href="https://github.com/Gallimathias/Advanced_AL"
+                                <a class="project-title" 
+                                    id="projectal-advanced"
                                     >
-                                    Advanced_AL
+                                    AL Advanced
                                 </a>
                         </div>
                 </div>
@@ -262,8 +269,32 @@ crossorigin="anonymous"></script>
         </header>
         
         
-            <img src="https://avatars0.githubusercontent.com/u/18464249?s=200&amp;v=4" class="img-responsive img-centered">
+            <img src="img/octoawesome.png" class="img-responsive img-centered">
         
+        
+        <section class="modal-card-body markdown">
+            
+
+<h1 id="octoawesome">OctoAwesome</h1>
+
+<p><a href="https://github.com/OctoAwesome">
+    <i class="fa fa-github"> </i>
+</a>
+<a href="http://octoawesome.net/">
+    <i class="fa fa-link"> </i>
+</a></p>
+
+<hr />
+
+<p>Am 13.11.2014 hat Tom Wendel angefangen auf YouTube, in 20 Minuten Videos, ein Spiel zu entwickeln. Mit der Zeit ist das Projekt gewachsen.</p>
+
+<p>Seit Ende 2015 gehöre ich zu dieser wunderbaren Community und bin seit 2018 sogar einer der Projekt Owner.</p>
+
+<p>Für mich bedeutet das Projekt sehr viel, da die Leute aus der Community mit der Zeit nicht nur zu wichtigen Freunden geworden sind, sondern weil das ständige Fortentwickeln an diesem Spiel und der Lerneffekt dabei etwas Besonderes ist. Außerdem gefällt mir das wir alles selber machen :).</p>
+
+<p><i class="fa fa-link"> </i> Link zum Projekt: <a href="http://octoawesome.net/">OctoAwesome</a></p>
+
+        </section>
         
     </div>
     <button class="modal-close is-large" aria-label="close" id="closeoctoawesome"></button>
@@ -289,6 +320,27 @@ crossorigin="anonymous"></script>
             <img src="https://www.gallimathias.de/images/CoMaS.png" class="img-responsive img-centered">
         
         
+        <section class="modal-card-body markdown">
+            
+
+<h1 id="command-management-system">Command Management System</h1>
+
+<p><a href="https://github.com/Gallimathias/CommandManagementSystem">
+    <i class="fa fa-github"> </i>
+</a>
+<a href="https://www.nuget.org/packages/CommandManagementSystem/2.0.0">     <i class="fa fa-download"> </i>
+</a></p>
+
+<hr />
+
+<p>Das Command Management System ist aus einem Noob Dev Gedöns Stream heraus entstanden. Im Zuge der Entwicklung unseres Telegram Bots versuchten wir verschiedene Befehle, möglichst generisch zu verarbeiten.</p>
+
+<p>Da ich immer wieder den Bedarf daran habe, das ich Befehle im weitesten Sinne benötige (z. B. als Startargument einer Anwendung) dinge wie Prism bzw. Container Projekte draus zu schwer sind pflege ich dieses kleine Framework.</p>
+
+<p><i class="fa fa-github"> </i> Link zum Projekt: <a href="https://github.com/Gallimathias/CommandManagementSystem">Command Management System</a></p>
+
+        </section>
+        
     </div>
     <button class="modal-close is-large" aria-label="close" id="closecomas"></button>
 </div>
@@ -301,25 +353,46 @@ crossorigin="anonymous"></script>
     });
 </script>
   
-<div class="modal" id="modaladvanced_al">
+<div class="modal" id="modalal-advanced">
     <div class="modal-background"></div>
     <div class="modal-card">
         
         <header class="modal-card-header bottom-pad">
-            <p class="modal-card-title has-text-centered">Advanced_AL</p>
+            <p class="modal-card-title has-text-centered">AL Advanced</p>
         </header>
         
         
         
+        <section class="modal-card-body markdown">
+            
+
+<h1 id="al-advanced">AL Advanced</h1>
+
+<p><a href="https://github.com/Gallimathias/AL.Advanced">
+    <i class="fa fa-github"> </i>
+</a></p>
+
+<hr />
+
+<p>AL Advanced ist für mich ein Projekt das mich bereits seit dem 1 Lehrjahr an begleitet. Bei AL Advanced geht es darum einen Compiler zu schreiben der mir ermöglicht auf der Arbeit nicht länger in C/AL schreiben zu müssen, sondern bequem meine Tätigkeit in C# nachzugehen.</p>
+
+<p>Dazu schreibe ich ein Tool was den aus C/AL erzeugten C# Code der Datenbank in ein schöneres Format umwandelt um dieses nach einer Editierung durch einen Nutzer wieder zurück in das hässliche Format zu verwandeln. Anders gesagt ich tausche den Code, der tatsächlich ausgeführt wird, einfach aus.</p>
+
+<p>Mittlerweile schreibe ich schon den Compiler zum 4. mal was aber auch die Folge daraus ist, dass sich mein Wissen in den 3 Jahren gemehrt hat und die Voraussetzungen sich geändert haben.</p>
+
+<p><i class="fa fa-github"> </i> Link zum Projekt: <a href="https://github.com/Gallimathias/AL.Advanced">AL.Advanced</a></p>
+
+        </section>
+        
     </div>
-    <button class="modal-close is-large" aria-label="close" id="closeadvanced_al"></button>
+    <button class="modal-close is-large" aria-label="close" id="closeal-advanced"></button>
 </div>
 <script>
-    $('#projectadvanced_al').click(function() {
-        $('#modaladvanced_al').addClass('is-active');
+    $('#projectal-advanced').click(function() {
+        $('#modalal-advanced').addClass('is-active');
     });
-    $('#closeadvanced_al').click(function() {
-        $('#modaladvanced_al').removeClass('is-active');
+    $('#closeal-advanced').click(function() {
+        $('#modalal-advanced').removeClass('is-active');
     });
 </script>
      
@@ -428,11 +501,19 @@ crossorigin="anonymous"></script>
 
 
 <div class="section" id="footer">
+    
     <div class="container has-text-centered">
         
-        <span class="footer-text"><a href="https://github.com/hivickylai/hugo-theme-introduction" target="_blank" rel="noopener">Introduction</a> theme for <a href="http://gohugo.io/" target="_blank" rel="noopener">Hugo</a>. Made with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i>. <a href="https://vickylai.io" target="_blank" rel="noopener">Vicky Lai</a> 2018</span>
+        
+        <span class="footer-text">
+            <a href="https://github.com/hivickylai/hugo-theme-introduction" target="_blank" rel="noopener">Introduction</a> theme for
+            <a href="http://gohugo.io/" target="_blank" rel="noopener">Hugo</a>. Made with
+            <i class="fa fa-heart"></i> and
+            <i class="fa fa-coffee"></i>.
+            <a href="https://vickylai.io" target="_blank" rel="noopener">Vicky Lai</a> 2018</span>
         
     </div>
+    
 </div>
 
 
