@@ -17,7 +17,10 @@
       <pubDate>Thu, 30 Nov 2017 16:21:40 +0100</pubDate>
       
       <guid>https://CLattenzaun.de/projects/octoawesome/</guid>
-      <description></description>
+      <description>OctoAwesome    
+Am 13.11.2014 hat Tom Wendel angefangen auf YouTube, in 20 Minuten Videos, ein Spiel zu entwickeln. Mit der Zeit ist das Projekt gewachsen.
+Seit Ende 2015 gehöre ich zu dieser wunderbaren Community und bin seit 2018 sogar einer der Projekt Owner.
+Für mich bedeutet das Projekt sehr viel, da die Leute aus der Community mit der Zeit nicht nur zu wichtigen Freunden geworden sind, sondern weil das ständige Fortentwickeln an diesem Spiel und der Lerneffekt dabei etwas Besonderes ist.</description>
     </item>
     
     <item>
@@ -26,16 +29,20 @@
       <pubDate>Thu, 30 Nov 2017 16:16:20 +0100</pubDate>
       
       <guid>https://CLattenzaun.de/projects/commandmanagementsystem/</guid>
-      <description></description>
+      <description>Command Management System    
+Das Command Management System ist aus einem Noob Dev Gedöns Stream heraus entstanden. Im Zuge der Entwicklung unseres Telegram Bots versuchten wir verschiedene Befehle, möglichst generisch zu verarbeiten.
+Da ich immer wieder den Bedarf daran habe, das ich Befehle im weitesten Sinne benötige (z. B. als Startargument einer Anwendung) dinge wie Prism bzw. Container Projekte draus zu schwer sind pflege ich dieses kleine Framework.</description>
     </item>
     
     <item>
-      <title>Advanced_AL</title>
-      <link>https://CLattenzaun.de/projects/advanced_al/</link>
+      <title>AL Advanced</title>
+      <link>https://CLattenzaun.de/projects/al-advanced/</link>
       <pubDate>Thu, 30 Nov 2017 16:16:36 +0100</pubDate>
       
-      <guid>https://CLattenzaun.de/projects/advanced_al/</guid>
-      <description></description>
+      <guid>https://CLattenzaun.de/projects/al-advanced/</guid>
+      <description>AL Advanced  
+AL Advanced ist für mich ein Projekt das mich bereits seit dem 1 Lehrjahr an begleitet. Bei AL Advanced geht es darum einen Compiler zu schreiben der mir ermöglicht auf der Arbeit nicht länger in C/AL schreiben zu müssen, sondern bequem meine Tätigkeit in C# nachzugehen.
+Dazu schreibe ich ein Tool was den aus C/AL erzeugten C# Code der Datenbank in ein schöneres Format umwandelt um dieses nach einer Editierung durch einen Nutzer wieder zurück in das hässliche Format zu verwandeln.</description>
     </item>
     
     <item>
