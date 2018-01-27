@@ -22,7 +22,7 @@
                             </figure>
                         </div>
                         <div class="card-content has-text-centered top-pad">
-                                <a {{ if .Params.external_link }}
+                                <a class="project-title" {{ if .Params.external_link }}
                                     href="{{ .Params.external_link }}"
                                     {{ else }}
                                     id="project{{.Title | urlize}}"

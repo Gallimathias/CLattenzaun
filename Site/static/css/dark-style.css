@@ -6654,7 +6654,7 @@ img {
 }
 
 .modal-card-title {
-    color: #106079
+    color: #00C800
 }
 
 .modal-card-body {
@@ -6804,4 +6804,8 @@ img {
 
 .hidden {
     display: none
+}
+
+.project-title {
+    color: #00C800
 }
