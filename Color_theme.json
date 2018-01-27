@@ -1,0 +1,33 @@
+{
+    "Title": "CLattenzaun_Theme",
+    "Mode": "Similar",
+    "Colors": [
+        {
+            "Name": "Green",
+            "RGB": {
+                "R": 0,
+                "G": 200,
+                "B": 0
+            },
+            "Hex": "00C800"
+        },
+        {
+            "Name": "Blue",
+            "RGB": {
+                "R": 16,
+                "G": 96,
+                "B": 121
+            },
+            "Hex": "106079"
+        },
+        {
+            "Name": "Grey",
+            "RGB": {
+                "R": 122,
+                "G": 122,
+                "B": 122
+            },
+            "Hex": "7a7a7a"
+        }
+    ]
+}
