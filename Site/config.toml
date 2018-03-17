@@ -10,8 +10,8 @@ canonifyurls        = true                          # Turns relative urls into a
 # googleAnalytics   = "xxx"
 
 [params]
-    blogHead        = "Blog"                        # Full name shows on blog post pages
-    firstName       = "CLattenzaun.de"                # First name shows in introduction on main page
+    blogHead        = "CLattenzaun Blog"                        # Full name shows on blog post pages
+    firstName       = "CLattenzaun"                # First name shows in introduction on main page
     tagLine         = "Mit Herzen CLattenzaun Entwickler"       # Appears after the introduction
     introHeight     = "large"                       # Input either 'medium' or 'large' or 'fullheight'
     themeStyle      = "dark"                        # Choose 'light' or 'dark'
@@ -32,7 +32,7 @@ canonifyurls        = true                          # Turns relative urls into a
     showProjects        = true                      # Show Projects section on home page
     projectColumns      = "3"                       # Choose "2" or "3" columns for projects section
     placeHolderimg      = "/img/neo-urban.jpg"      # For Projects without image
-    showAllPosts        = false                     # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
+    showAllPosts        = false                      # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
     showLatest          = true                      # Show latest blog post summary
     shareButtons        = true                      # On post pages, show share this social buttons
 
