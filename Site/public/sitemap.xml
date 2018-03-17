@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://CLattenzaun.de/blog/passwoerter-auf-dem-silbertablett/</loc>
+    <lastmod>2018-03-17T20:25:40+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CLattenzaun.de/contact/</loc>
     <lastmod>2017-11-30T16:11:09+01:00</lastmod>
   </url>
@@ -25,6 +30,12 @@
   <url>
     <loc>https://CLattenzaun.de/about/</loc>
     <lastmod>2017-11-30T15:22:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CLattenzaun.de/blog/</loc>
+    <lastmod>2018-03-17T20:25:40+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
