@@ -151,7 +151,7 @@ crossorigin="anonymous"></script>
 
 <p>Ich hatte kurz die Webseite von KeePass und auch dem BSI überflogen, nach Bugs gesucht und eventuellen Lücken gegoogelt. Wirklich viel zeit habe ich nicht rein investiert also lud ich fix einfach mal den Quellcode runter. Sehr bequem war die Tatsache, dass es sich um C# handelt, weshalb ich mich direkt heimisch fühlen konnte. Ok der Codestyle entsprach nicht meinem Geschmack, aber da kann man ja nichts machen. Schon beim ersten Überflug konnte ich hier und da erhaschen, dass mit den Passwörtern an der einen oder anderer Stelle mit String gearbeitet wird und die Forms verwendeten das Standard Textcontrol.</p>
 
-<p>Die Datenbank ein bisschen vergessen interessierte mich jetzt eine Sache und aus reiner Neugier machte ich ein paar Tests. Praktischer weiße steht mir hier zu auf meinem Laptop das eine oder andere Tool zur Verfügung, das ich mir über die Zeit angeeignet habe bzw. ich konnte meine Toolsammlung auf dem neuen Laptop recht simpel wieder herstellen. An sich habe ich mir nicht wirklich gedacht dass ich zu einem Resultat kommen würde da sowohl beim BSI als auch bei Heise oder auf der Webseite von KeePass stets betont wird, wie sicher die Verschlüsselung ist. Doch mein Analyse Ansatz war viel einfacher. Ich habe eine neue KeePass Instanz gestartet und mit der GameEngine, die ich für solche zwecke gerne nutze, nun versucht mein Passwort zu erraten. Dabei war der Erfolg überraschend schnell und einfach.</p>
+<p>Die Datenbank ein bisschen vergessen interessierte mich jetzt eine Sache und aus reiner Neugier machte ich ein paar Tests. Praktischer weiße steht mir hier zu auf meinem Laptop das eine oder andere Tool zur Verfügung, das ich mir über die Zeit angeeignet habe bzw. ich konnte meine Toolsammlung auf dem neuen Laptop recht simpel wieder herstellen. An sich habe ich mir nicht wirklich gedacht dass ich zu einem Resultat kommen würde da sowohl beim BSI als auch bei Heise oder auf der Webseite von KeePass stets betont wird, wie sicher die Verschlüsselung ist. Doch mein Analyse Ansatz war viel einfacher. Ich habe eine neue KeePass Instanz gestartet und mit der CheatEngine, die ich für solche zwecke gerne nutze, nun versucht mein Passwort zu erraten. Dabei war der Erfolg überraschend schnell und einfach.</p>
 
 <p>Ich war ein baff und googelte noch mal ein wenig, ob diese Lücke bereits bekannt war, auf der Webseite entdeckte ich dann folgenden Hinweis (hätte ich im Vorfeld mal besser lesen sollen).</p>
 
@@ -171,7 +171,7 @@ crossorigin="anonymous"></script>
 
 <p><img src="https://CLattenzaun.de/images/Passwoerter-auf-dem-Silbertablett/Keepass_Datenbank.jpg" alt="Testeintrag" /></p>
 
-<p>Nun warte ich 10 Minuten ab und starte dann mein Tool. Es sollte genug zeit sein, dass der Speicher keine Reste mehr vom Passwort enthält. Ich ziehe mir nun händisch mit der GameEngine ein Speicherabbild, und zwar bereits auf alle strings des Prozesses gefiltert. Bei diesem ersten Lauf erhielt ich eine liste mit 294364 Strings. In dieser Datei war mein Test Passwort ganze 20-mal enthalten. Ok zwischen den ganzen Strings ist vllt. nicht direkt das Passwort als Passwort zu erkennen. Woher die Einträge kommen, ist denke ich klar, aus meiner direkten Eingabe des Eintrags. Ich hatte weitere 10 Minuten gewartet oder länger und ein zweites Speicherabbild erstellt. Die Liste enthielt dieses Mal 294 599 Strings. Der Status war unverändert, 20 Einträge.</p>
+<p>Nun warte ich 10 Minuten ab und starte dann mein Tool. Es sollte genug zeit sein, dass der Speicher keine Reste mehr vom Passwort enthält. Ich ziehe mir nun händisch mit der CheatEngine ein Speicherabbild, und zwar bereits auf alle strings des Prozesses gefiltert. Bei diesem ersten Lauf erhielt ich eine liste mit 294364 Strings. In dieser Datei war mein Test Passwort ganze 20-mal enthalten. Ok zwischen den ganzen Strings ist vllt. nicht direkt das Passwort als Passwort zu erkennen. Woher die Einträge kommen, ist denke ich klar, aus meiner direkten Eingabe des Eintrags. Ich hatte weitere 10 Minuten gewartet oder länger und ein zweites Speicherabbild erstellt. Die Liste enthielt dieses Mal 294 599 Strings. Der Status war unverändert, 20 Einträge.</p>
 
 <p>Mhm man trägt ja nun nicht jeden Tag neue Einträge ein, also beschloss ich KeePass zu schließen, und neu zu öffnen. Nach dem schließen war der Speicher zum Glück komplett geleert worden. Direkt nach dem Öffnen der Datenbank machte ich erneut ein Speicherabbild und erhielt 244906 Strings. Mit einer dunklen Vorahnung durchsuchte ich die Datei nach meinem Masterpasswort. Und leider fand ich es auch, und zwar mit einem fast ähnlichen Muster wie die Passwörter bereits davor. Das heißt, Passwörter sind in Speicherabbildern auffindbar. Immerhin war in diesem vierten Speicherabbild mein anderes Passwort nicht auffindbar. puhh. Auch hier gute 10 bis 20 Minuten Später das Passwort bleibt im Speicher unter demselben Muster. Schlecht. Dass das Masterpasswort noch im Speicher war, sollte sich gegen später als &ldquo;glücksfall&rdquo; rausstellen.</p>
 
@@ -221,6 +221,10 @@ crossorigin="anonymous"></script>
 <p>Der c&rsquo;t Artikel ist in der Ausgabe 07/2018 (S. 74) erschienen. Er ist auch online erhältlich: <a href="https://www.heise.de/ct/ausgabe/2018-7-Ein-zweiter-Blick-auf-Passwortmanager-unter-Windows-3991668.html">Klartext?</a>.</p>
 
 <p>Der Fork zu KeePass findet ihr <a href="https://github.com/Gallimathias/KeePass">hier</a>.</p>
+
+<blockquote>
+<p>Korrektur: In einer früheren Ausgabe habe ich mich vertippt. Ich nutze natürlich die CheatEngine 6.7, im Artikel hieß es ich nutze eine GameEngine das ist natürlich Murks.</p>
+</blockquote>
 
     </div>
 
