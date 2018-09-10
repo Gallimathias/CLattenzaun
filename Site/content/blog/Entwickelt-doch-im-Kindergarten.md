@@ -1,7 +1,7 @@
 ---
 title: "Entwickelt doch im Kindergarten!"
-date: 2018-09-09T18:14:00+02:00
-draft: true
+date: 2018-09-10T14:00:00+02:00
+draft: false
 ---
 Es hat ziemlich lange gedauert, bis ich hier auf CLattenzaun jetzt endlich mal den zweiten Blogeintrag veröffentliche (hätte eigentlich der Erste werden sollen). Natürlich möchte ich mich ~~in meinem ersten Beitrag~~ mal ein wenig mit dem Thema digitale Bildung auseinandersetzen bzw. ich würde gerne einfach ein paar Dinge in den Raum werfen und dann aus meiner Sicht erklären.
 
