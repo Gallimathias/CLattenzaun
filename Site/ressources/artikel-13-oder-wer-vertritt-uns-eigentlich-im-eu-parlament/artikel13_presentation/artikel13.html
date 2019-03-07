@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks!
+    -->
+
+    <!-- SEO -->
+    <title>Wer vertritt uns eigentlich im EU-Parlament?</title>
+    <meta
+      name="description"
+      content="Eine Statistik über die Deutsche-Vertretung im Europa Parlament"
+    />
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+    <!-- CSS Base -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="static/css/webslides.css"
+    />
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="static/css/all.min.css"
+    />
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@noob_dev_tv" />
+    <!-- EDIT -->
+    <meta name="twitter:creator" content="@noob_dev_tv" />
+    <!-- EDIT -->
+    <meta
+      name="twitter:title"
+      content="Wer vertritt uns eigentlich im EU-Parlament?"
+    />
+    <!-- EDIT -->
+    <meta
+      name="twitter:description"
+      content="Eine Statistik über die Deutsche-Vertretung im Europa Parlament"
+    />
+    <!-- EDIT -->
+    <meta name="twitter:image" content="img/eu-flag.jpg" />
+    <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <!-- <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png"> -->
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#333333" />
+  </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        <!-- <p class="logo">
+          <a href="../index.html" title="WebSlides">WebSlides</a>
+        </p> -->
+        <ul>
+          <li class="github">
+            <a
+              rel="external"
+              href="https://github.com/Gallimathias"
+              title="Github"
+            >
+              <svg class="fab fa-github"></svg>
+              <em>Gallimathias</em>
+            </a>
+          </li>
+          <li class="twitter">
+            <a
+              rel="external"
+              href="https://twitter.com/Noob_Dev_Tv"
+              title="Twitter"
+            >
+              <svg class="fab fa-twitter"></svg>
+              <em>@Noob_Dev_Tv</em>
+            </a>
+          </li>
+          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <article id="webslides">
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <!-- TITEL Seite -->
+        <section class="bg-black-blue aligncenter">
+          <span
+            class="background dark"
+            style="background-image:url('img/eu-flag.jpg')"
+          ></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <p class="text-subtitle">Artikel 13</p>
+            <h1 class="text-landing">Wer vertritt uns im Parlament?</h1>
+            <p class="text-symbols">* * *</p>
+            <p>by Annemarie Brekow & Maximilian Krüger</p>
+          </div>
+        </section>
+        <!-- ENDE -> TITEL Seite -->
+        <!-- Einleitung -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <h2><svg class="fas fa-exclamation-triangle"></svg> Hinweis</h2>
+            <div class="text-intro">
+              Hier kommt nun wie versprochen die Statistik über die Artikel 13
+              Abstimmung. Wichtig ist zu beachten, dass wir hier <b>nur</b> die
+              Deutsche-Vertretung, basierend auf die letzte Artikel 13
+              Abstimmung vom September 2018 betrachten.
+            </div>
+          </div>
+        </section>
+        <!-- ENDE -> Einleitung -->
+        <!-- Entscheidung des Parlaments -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <div class="content-left">
+              <h3>Die Letzte Abstimmung des Parlaments</h3>
+              <div class="text-intro">
+                Bei der letzen Abstimmung (September 2018) war das Parlament für
+                die Urheberrechtsreform
+              </div>
+            </div>
+            <div class="content-right">
+              <canvas id="votes"></canvas>
+            </div>
+          </div>
+        </section>
+        <!-- ENDE -> Entscheidung des Parlaments -->
+        <!-- Stimmverteilung im Parlament -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <div class="content-left">
+              <h3>Stimmverteilung im Parlament</h3>
+              <div class="text-intro">
+                Bei der Abstimmung verteilt sich die Gewichtung der Stimmen nach
+                Partei folgender maßen.
+                <p>
+                  (Das Diagramm kann angeklickt werden um Details zu erhalten)
+                </p>
+              </div>
+              <dialog class="bg-black-blue" role="dialog">
+                <button id="close-dialog">Schließen</button>
+                <h2>
+                  Stimmen in der
+                  <div id="partie-name"></div>
+                </h2>
+                <canvas id="voices-partie"></canvas>
+              </dialog>
+            </div>
+            <div class="content-right">
+              <canvas id="voices"></canvas>
+            </div>
+          </div>
+        </section>
+        <!-- ENDE -> Stimmverteilung im Parlament -->
+        <!-- Karte parlament -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <div class="content-left">
+              <h3>Stimmen nach Bundesland</h3>
+            </div>
+            <div class="content-right" style="width: 71%">
+              <div class="content-right">
+                Aktuelle Tendenz
+                <img src="img/deu_map_tendenz.png" />
+              </div>
+              <div class="content-right">
+                Abstimmung September 2018
+                <img src="img/deu_map_vote.png" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ENDE -> Karte parlament -->
+        <!-- Alter im Parlament -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <div class="content-left">
+              <h2>Fakten zum Alter</h2>
+            </div>
+            <div class="content-left">
+              <p>
+                In der deutschen Vertretung sitzen vorallem ältere Leute. Laut
+                dem Statistischen Bundesamt, betrug das Gesamtdruchschnittsalter
+                der deutschen Bevölkerung 44,25 Jahre (Stand: 2015)
+              </p>
+            </div>
+            <ul class="flexblock metrics">
+              <li>
+                Altersdurchschnitt
+                <span>58,271</span>
+              </li>
+              <li>
+                <span>
+                  <svg class="fas fa-user"></svg>
+                </span>
+                Jüngste Person 32
+              </li>
+              <li>
+                <span>
+                  <svg class="fas fa-user"></svg>
+                </span>
+                Älteste Person 79
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- ENDE -> Alter im Parlament -->
+        <!-- Bildung -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <div class="content-left">
+              <h2>Schulabschlüsse der Abgeordneten</h2>
+              <p>
+                Auffällig ist, dass der Großteil der Abgeordneten ein Abitur
+                besitzt. Laut dem Statistischen Bundesamt hatte 2017 31,9 % der
+                Bevölkerung einen Hochschulabschluss (30,4 % Hauptschulabschluss
+                / Volksschulabschluss, 23,1 % Mittlere Reife).
+              </p>
+              <p>
+                Leider konnten wir zu 5 Abgeordneten keine Information zu ihrem
+                Schulabschluss finden, weshalb wir diese als "Unbekannt" makiert
+                haben.
+              </p>
+            </div>
+            <div class="content-right">
+              <canvas id="education"></canvas>
+            </div>
+          </div>
+        </section>
+        <!-- ENDE -> Bildung -->
+        <!-- Geschlecht -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <div class="content-left">
+              <h2>Geschlechtsverteilung</h2>
+              <p>
+                Hier sehen wir die Geschlechtsverteilung bei der Abstimmung der
+                deutschen Abgeordneten und, zum Vergleich, die Verteilung der
+                Geschlechter insgesamt in Deutschland, basierend auf den Daten
+                des Statistischen Bundesamtes vom 31.03.2018.
+              </p>
+            </div>
+            <div class="content-right">
+              <div class="content-left">
+                Parlament
+                <canvas id="mwdevision"></canvas>
+              </div>
+              <div class="content-left">
+                Deutschland
+                <canvas id="mwdevisioncountry"></canvas>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ENDE -> Geschlecht -->
+        <!-- Geschlecht - Stimmen -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <div class="content-left">
+              <h2>Stimmen nach Geschlecht</h2>
+              <p>
+                Hier vergleichen wir die Stimmenverteilung nach Geschlecht, mit
+                der spekulativen Tendenz (Ankündigungen auf Websiten und
+                Twitter).
+              </p>
+            </div>
+            <div class="content-right">
+              <div class="content-left">
+                Abstimmung September 2018
+                <canvas id="mwvoices"></canvas>
+              </div>
+              <div class="content-left">
+                Aktuelle Tendenz
+                <canvas id="mwprediction"></canvas>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ENDE -> Geschlecht - Stimmen -->
+        <!-- Job beschreibung -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <div class="text-intro">
+              <p>
+                Wir sehen nun gleich die Verteilung der Berufe der Abgeordneten.
+                Hierzu muss man aber ein paar Dinge vorne weg sagen.
+              </p>
+              <p>
+                Wir haben unser bestes versucht, doch es war nicht leicht. Über
+                einige Abgeordnete konnten wir leider nichts finden oder hatten
+                unterschiedliche Angaben. Wir haben versucht immer den Beruf zu
+                wählen der gelernt wurde.
+              </p>
+              <p>
+                Letztendlich haben wir uns für Berufskategorien entschieden, die
+                man gleich sehen wird.
+              </p>
+              <p>
+                Seit wann ist "studiert" ein Beruf / Kategorie? Wir hatten ein
+                Problem damit, wie wir Abgeordnete einordnen sollen, die direkt
+                nach ihrem Studium in die Politik gewechselt sind oder "nur"
+                studiert haben und in ihrem Fach, nicht in der Wirtschaft
+                gearbeitet haben. Diese haben wir in die Kategorie "studiert"
+                eingeordnet.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Job -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <div class="content top">
+              <h2>Berufsverteilung</h2>
+            </div>
+            <div class="content-center" style="width: 80%">
+              <canvas id="jobview"></canvas>
+            </div>
+          </div>
+        </section>
+        <!-- ENDE -> Job -->
+        <!-- Job -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <div class="content-left">
+              <h2>Tendenz des Parlaments</h2>
+              <p>
+                Hier sehen wir die aktuell ermittelte Tendenz wie die deutsche
+                Vertretung bei der nächsten Abstimmung warscheinlich zum Thema
+                abstimmen wird.
+              </p>
+              <p>
+                Die Tendenz wurde aufgrund von Aussagen auf Twitter, in E-Mails
+                oder durch andere Webseiten wie z.B. SaveYourInternet/Pledge2019
+                ermittelt. Aber es bleibt natürlich weiterhin spekulativ und
+                kann nicht den tatsächlichen Ausgang der Abstimmung vorhersagen.
+              </p>
+            </div>
+            <div class="content-right">
+              <canvas id="predictionparliament"></canvas>
+            </div>
+          </div>
+        </section>
+        <!-- ENDE -> Job -->
+        <!-- Quellen -->
+        <section class="bg-black-blue">
+          <div class="wrap">
+            <div class="content-left">
+              <h2>Quellen</h2>
+              <p>
+                Tweets von
+                <a href="https://twitter.com/MartinSonneborn"
+                  >Martin Sonneborn</a
+                >, <a href="https://twitter.com/Senficon">Julia Reda</a>,
+                <a href="https://twitter.com/woelken">Tiemo Wölken</a>
+              </p>
+              <p>
+                <a href="https://pledge2019.eu/de">Pledge2019</a>
+              </p>
+              <p>
+                <a href="https://saveyourinternet.eu/">#SaveYourInternet</a>
+              </p>
+              <p>
+                <a href="https://www.destatis.de/DE/Startseite.html"
+                  >Statistisches Bundesamt</a
+                >
+              </p>
+              <p>
+                <a href="http://www.europarl.europa.eu/portal/de"
+                  >Europäisches Parlament</a
+                >
+              </p>
+              <p>
+                <a
+                  href="https://pixabay.com/de/photos/eu-flagge-brexit-europa-british-uk-2108026/"
+                  >Bild von Mediamodifier auf Pixabay</a
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- ENDE -> Quellen -->
+      </article>
+    </main>
+    <!--main-->
+
+    <!-- Required -->
+    <script src="static/js/webslides.js"></script>
+
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <!-- Charts -->
+    <script src="static/js/chart.min.js"></script>
+    <script src="data/parties.js"></script>
+    <script src="data/educations.js"></script>
+    <script src="data/sex.js"></script>
+    <script src="data/jobs.js"></script>
+    <script src="data/prediction.js"></script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/all.min.js"></script>
+  </body>
+</html>

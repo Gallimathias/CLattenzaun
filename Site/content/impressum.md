@@ -1,11 +1,11 @@
 ---
 title: "Impressum"
-date: 2018-05-25T15:22:11+01:00
+date: 2019-03-06T15:22:11+01:00
 draft: false
 ---
-Maximilian Krüger  
-Höhenweg 46  
-72218 Wildberg  
+Maximilian Krüger    
+Meilinger Straße 7  
+82237 Wörthsee   
 
 E-Mail: [Marcus.Aurelius@gallimathias.de](mailto:Marcus.Aurelius@gallimathias.de)
 
